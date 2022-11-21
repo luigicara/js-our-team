@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(169, 169, 169, 0.1);
+}
+
+h3 {
+    margin: 2rem;
+}
+
+header p {
+    width: 30%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1rem;
+    flex-basis: calc((100% / 3) - 2rem);
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.description {
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+}
