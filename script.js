@@ -57,7 +57,7 @@ for (let i = 0; i < teamMember.length; i++) {
     img.src = `img/${teamMember[i].image}`;
 
     // inserisco l'img nella card singola
-    card.append(img)
+    card.append(img);
 
     // creo il div della descrizione img
     const description = document.createElement("div");
@@ -69,5 +69,5 @@ for (let i = 0; i < teamMember.length; i++) {
     description.innerHTML = `<h4>${teamMember[i].name}</h4> <p>${teamMember[i].role}</p>`;
 
     // inserisco il dis.description nella card
-    card.append(description)
+    card.append(description);
 }
